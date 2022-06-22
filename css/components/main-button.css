@@ -1,0 +1,9 @@
+.main-button {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--buttons);
+  padding: 1.8rem 4.6rem;
+  background-color: var(--bg);
+  border: 0.2rem solid var(--border-button);
+  border-radius: 1.5rem;
+}

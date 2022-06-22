@@ -1,0 +1,7 @@
+.main-action {
+  display: flex;
+  gap: 0.9rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--buttons);
+}

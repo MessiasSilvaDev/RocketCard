@@ -1,0 +1,13 @@
+.box-image {
+  margin-left: auto;
+  width: 33rem;
+  height: 42rem;
+  display: flex;
+  align-items: center;
+}
+
+.box-image .image {
+  width: 120%;
+  border: 1rem solid var(--img-profile);
+  border-radius: 30rem;
+}

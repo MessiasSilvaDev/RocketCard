@@ -5,50 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RocketCard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/components/main-section.css" />
+    <link rel="stylesheet" href="./css/components/main-wrapper.css" />
+    <link rel="stylesheet" href="./css/components/main-link.css" />
+    <link rel="stylesheet" href="./css/components/main-card.css" />
+    <link rel="stylesheet" href="./css/components/main-header.css" />
+    <link rel="stylesheet" href="./css/components/box-image.css" />
+    <link rel="stylesheet" href="./css/components/main-info.css" />
+    <link rel="stylesheet" href="./css/components/main-action.css" />
+    <link rel="stylesheet" href="./css/components/main-footer.css" />
+    <link rel="stylesheet" href="./css/components/main-button.css" />
   </head>
   <body>
-    <a href="">Compartilhe seu #rocketcard</a>
     <main class="main-section">
-      <header>
-        <img src="./assets/logo.svg" alt="Logo da Rocketseat" />
-        <a href="">birobirobiro</a>
-      </header>
-      <div class="image"></div>
-      <div class="info">
-        <a href="">
-          <img src="./assets/followers.svg" alt="Ícone de seguidores" />
-          <span>716</span>Seguidores
+      <div class="main-wrapper">
+        <a href="https://instagram.com" class="main-link -mgBottom">
+          Compartilhe seu #rocketcard
         </a>
 
-        <a href="">
-          <img
-            src="./assets/following.svg"
-            alt="Ícone de pessoas que estou seguindo"
-          />
-          <span>193</span>Seguindo
-        </a>
+        <div class="main-card">
+          <div class="card">
+            <header class="main-header">
+              <div class="boxLogo">
+                <img
+                  src="./assets/images/logo.svg"
+                  alt="Logo da Rocketseat"
+                  class="logo"
+                />
+              </div>
+              <a href="https://github.com/birobirobiro" class="main-link">
+                birobirobiro
+              </a>
+            </header>
 
-        <a href="">
-          <img src="./assets/repository.svg" alt="Ícone de repositórios" />
-          <span>38</span>Repositórios
-        </a>
+            <div class="box-image">
+              <img
+                src="./assets/images/photo.jpg"
+                alt="Foto do Usuário GitHub"
+                class="image"
+              />
+            </div>
 
-        <a href="">
-          <img src="./assets/company.svg" alt="Ícone de companhia" />
-          <span>@Rocketseat</span>
-        </a>
+            <div class="main-info">
+              <a href="" class="main-action">
+                <img
+                  src="./assets/images/followers.svg"
+                  alt="Ícone de seguidores"
+                />
+                716 Seguidores
+              </a>
 
-        <a href="">
-          <img src="./assets/location.svg" alt="Ícone de localização" />
-          <span>Bebedouro</span>
-        </a>
+              <a href="" class="main-action">
+                <img
+                  src="./assets/images/following.svg"
+                  alt="Ícone de pessoas que estou seguindo"
+                />
+                193 Seguindo
+              </a>
+
+              <a href="" class="main-action">
+                <img
+                  src="./assets/images/repository.svg"
+                  alt="Ícone de repositórios"
+                />
+                38 Repositórios
+              </a>
+
+              <a href="" class="main-action">
+                <img
+                  src="./assets/images/company.svg"
+                  alt="Ícone de companhia"
+                />
+                @Rocketseat
+              </a>
+
+              <a href="" class="main-action">
+                <img
+                  src="./assets/images/location.svg"
+                  alt="Ícone de localização"
+                />
+                Bebedouro
+              </a>
+            </div>
+
+            <footer class="main-footer">
+              <img
+                src="./assets/images/logo.svg"
+                alt="Logo da Rocketseat"
+                class="logo"
+              />
+              <a
+                href="https://app.rocketseat.com.br/discover/challenges/rocketcard"
+                class="main-link"
+              >
+                rocketcard
+              </a>
+            </footer>
+          </div>
+        </div>
       </div>
-      <footer>
-        <img src="./assets/logo.svg" alt="Logo da Rocketseat" />
-        <a href="">rocketcard</a>
-      </footer>
+
+      <div class="main-wrapper">
+        <p class="main-link -mgBottom">Customizar Rocketcard</p>
+        <button class="main-button">Gerar background</button>
+      </div>
     </main>
-    <p>customizar rocketcard</p>
-    <button>Gerar background</button>
   </body>
 </html>

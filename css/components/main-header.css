@@ -1,0 +1,26 @@
+.main-header {
+  margin-bottom: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.main-header .main-link {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+
+.main-header .boxLogo {
+  border: 0.1rem solid var(--text);
+  border-radius: 50%;
+  width: 5.6rem;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.main-header .logo {
+  width: 60%;
+  height: 60%;
+}

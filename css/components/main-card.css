@@ -1,0 +1,19 @@
+.main-card {
+  width: 44rem;
+  height: 70rem;
+  background: var(--bg);
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-card .card {
+  background: var(--bg-card);
+  border-radius: 5rem;
+  padding: 3rem;
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  position: relative;
+}

@@ -1,0 +1,9 @@
+.main-link {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--buttons);
+}
+
+.main-link.-mgBottom {
+  margin-bottom: 2rem;
+}
