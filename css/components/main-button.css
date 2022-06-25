@@ -6,4 +6,5 @@
   background-color: var(--bg);
   border: 0.2rem solid var(--border-button);
   border-radius: 1.5rem;
+  cursor: pointer;
 }
